@@ -1,0 +1,158 @@
+body{
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+   display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  
+}
+
+.container{    /*for some resion*/
+    flex: 1;
+    /* display: flex;
+    flex-direction: column;  
+    min-height: 100vh; */
+}
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+/* Footer */
+.f-info-links a{
+ text-decoration: none;
+ color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links , 
+.f-info-socials,
+.f-info-brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.f-info {
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/* card */
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+.card-text p{
+  font-weight: 400 !important;
+}
+
+.listing-list{
+    text-decoration: none ;
+}
+
+/* card effect */
+/* .card-img-overlay{
+  opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}  */
+
+.card-img-overlay {
+    transition: transform 0.3s; 
+  }
+  
+  .card-img-overlay:hover {
+    transform: translateY(-5px) scale(1.05); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+    opacity: 0.8; 
+    border-radius: 1rem !important;
+}
+
+/* New Page */
+
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important; 
+}
+
+/* edit-page */
+.edit-btn{
+    background-color: #fe424d !important;
+    border: none !important; 
+}
+
+/* show-page */
+
+.show-img{
+    height: 30vh;
+}
+
+.btns{
+    display: flex;
+}
+
+.button {
+    background-color:  black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    transform: perspective(500px) rotateY(0deg);
+    border-radius: 10px;
+  }
+  
+  .button:hover {
+    transform: perspective(500px) rotateY(45deg);
+  }
+
+/* sign and login */
+
+.button2 {
+    text-decoration: none;
+    color: #333; /* Example color */
+    transition: color 0.3s ease;
+  }
+
+  .button2 {
+    color: #007bff; /* Example hover color */
+  }
